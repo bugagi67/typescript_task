@@ -6,8 +6,9 @@ test('Creating a Book class', () => {
     id: 1,
     name: "Мастер и Маргарита", 
     author: "Михаил Булгаков",
-    price: 1000,
-    pages: 500
+    _price: 1000,
+    pages: 500, 
+    count: 1
   }
 
   expect(book).toEqual(expected)

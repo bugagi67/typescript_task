@@ -5,13 +5,14 @@ test("Creating a Movie class", () => {
   const expected = {
     id: 1005,
     name: "Мстители", 
-    price: 1000, 
+    _price: 1000, 
     eng_name: "The Avengers", 
     year: 2012,
     country: "США", 
     slogan: "Avengers Asemble!", 
     genre: ["фантастика", "боевик", "фэнтези", "приключения"], 
     time: "137 мин. / 02:17",
+    count: 1
   }
   expect(movie).toEqual(expected);
 })

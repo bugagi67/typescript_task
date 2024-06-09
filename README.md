@@ -2,5 +2,6 @@
 
 # typescript №1
 # typescript №2  
+# typescript №3* 
 
 [![Build status](https://ci.appveyor.com/api/projects/status/x3qpxgfr48l9lb53?svg=true)](https://ci.appveyor.com/project/bugagi67/typescript-task)

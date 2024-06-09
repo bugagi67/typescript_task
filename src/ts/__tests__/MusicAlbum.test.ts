@@ -6,7 +6,8 @@ test("creating a MusicAlbum class", () => {
     id: 1008,
     name: 'Meteora', 
     author: 'Linkin Park', 
-    price: 900
+    _price: 900, 
+    count: 1
   }
   expect(music).toEqual(expected);
 })
